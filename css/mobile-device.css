@@ -1,0 +1,84 @@
+@media screen and (max-width: 680px) {
+    
+    .attribution{
+        position: absolute;
+        width: 50%;
+    }
+    
+    /* body */
+    body{
+        max-width: 100%;
+        overflow: hidden;
+        background-image: url(../images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        gap: 0px;
+        transform: translateY(33%);
+    }
+    /* First block */
+    .files__main{
+        width: 350px;
+        height: 200px;
+        border-radius: 10px 100px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30%;
+        overflow: hidden;
+        padding: 30px;
+    }
+
+    .files__image{
+        width: 150px;
+    }
+
+    /* Second block */
+    .loading__main{
+        width: 350px;
+        height: 175px;
+        border-radius: 10px;
+        padding: 20px 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 25px;
+    }
+
+    /*  */
+    .clip-path__image{
+        display: none;
+    }
+    
+    /* White block */
+    .first-row__clip-path{
+        position: absolute;
+        bottom: 14%;
+        left: 25%;
+        clip-path: none;
+        height: 15%;
+        width: 50%;
+        grid-area: 3/2/-2/-2;
+        margin: 0;
+        z-index: 10;
+    }
+
+    .clip-path__text{
+        font-size: 300%;
+    }
+
+    
+    .clip-path__margin-bottom{
+        margin: auto;
+    }
+    
+
+
+}

@@ -1,0 +1,25 @@
+@import url(variables.css);
+
+/* clip-path disenio */
+.first-row__clip-path{
+    clip-path: polygon(100% 0, 100% 64%, 93% 50%, 0 50%, 0 0);
+    background: white;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    z-index: 1;
+    justify-content: space-around;
+    grid-area: 2/3/4/-1;
+    margin-top: 12%;
+    margin-left: 27%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clip-path__text{
+    font-size: 40px;
+}
+
+.clip-path__margin-bottom{
+    margin-bottom: 40%;
+}

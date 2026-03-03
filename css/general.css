@@ -1,0 +1,48 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    background: var(--blue950);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.paragraph{
+    font-size: 14px;
+}
+
+
+.attribution{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    width: 500px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px white; 
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 25px;
+}
+
+.attribution__paragraph{
+    color: rgb(81, 183, 250);
+    text-decoration: none;
+}
+
+.mobile-background__image{
+    display: none;
+}
+
+
